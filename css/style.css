@@ -1,0 +1,96 @@
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* colors and fonts */
+body {
+	background: #F7F9FC;
+	color: #575F7D;
+	font-family: 'Questrial', sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+
+	margin: 0px;
+}
+
+img{
+	width: 200px;
+	border-radius: 20px
+}
+	
+.div-container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.box_principale {
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+
+	border-radius: 3px;
+	padding: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+h1{
+	color: black;
+	font-size: 50px;
+	font-family: 'Montserrat Alternates', cursive;
+}
+
+#h3-title {
+	margin-bottom: 70px
+}
+
+h2 {
+	color: grey;
+	font-size: 24px;
+	font-weight: lighter;
+	font-family: 'Montserrat Alternates', sans-serif;
+	
+}
+
+@media (max-width: 700px) {
+	#div-container {
+		width: 600px;
+	}
+}
+@media (max-width: 1000px) {
+	#div-container {
+		width: 800px;	
+	}
+}
+@media (max-width: 950px) {
+	#div-container {
+		width: 800px;
+	}
+}
+@media (max-width: 775px) {
+	#div-container {
+		width: 500px;
+	}
+}
+@media (max-width: 500px) {
+	#div-container {
+		width: 350px;
+	}
+}
+
+i {
+	color: grey;
+}
+
+ul {
+	list-style: none;
+
+	text-align: center;
+}
+
+ul li {
+	display: inline;
+
+	margin: 0px 30px;
+}
